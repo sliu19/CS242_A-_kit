@@ -7,10 +7,12 @@
 //
 
 import UIKit
-var questionIndex = 0
+
+var secondView:SecondViewController = SecondViewController()
+var questionIndex:Int = 0
 
 class SecondViewController: UIViewController,UITextFieldDelegate {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         NextOne.hidden=true
@@ -106,6 +108,10 @@ class SecondViewController: UIViewController,UITextFieldDelegate {
     }
     override func touchesBegan(touches: NSSet, withEvent event: UIEvent) {
         self.view.endEditing(true)
+    }
+    
+    func getIndex()->Int{
+        return questionIndex
     }
     
 }

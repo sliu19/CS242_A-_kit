@@ -10,8 +10,8 @@
           "width" : 1
         },
         "capInsets" : {
-          "right" : 15,
-          "left" : 14
+          "right" : 0,
+          "left" : 29
         }
       }
     }
