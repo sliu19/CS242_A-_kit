@@ -11,6 +11,7 @@
 		F747C3E01A3169C3005A3B8A /* theme.JPG in Resources */ = {isa = PBXBuildFile; fileRef = F747C3DF1A3169C3005A3B8A /* theme.JPG */; };
 		F747C3E21A3170A9005A3B8A /* GradeBook.png in Resources */ = {isa = PBXBuildFile; fileRef = F747C3E11A3170A8005A3B8A /* GradeBook.png */; };
 		F747C3E41A3171CE005A3B8A /* A+.png in Resources */ = {isa = PBXBuildFile; fileRef = F747C3E31A3171CE005A3B8A /* A+.png */; };
+		F747C3E61A317A55005A3B8A /* Manual test plan.pdf in Resources */ = {isa = PBXBuildFile; fileRef = F747C3E51A317A55005A3B8A /* Manual test plan.pdf */; };
 		F7F7A0631A1D7943001626E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F7A0621A1D7943001626E1 /* AppDelegate.swift */; };
 		F7F7A0651A1D7943001626E1 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F7A0641A1D7943001626E1 /* FirstViewController.swift */; };
 		F7F7A0671A1D7943001626E1 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F7A0661A1D7943001626E1 /* SecondViewController.swift */; };
@@ -38,6 +39,7 @@
 		F747C3DF1A3169C3005A3B8A /* theme.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = theme.JPG; sourceTree = "<group>"; };
 		F747C3E11A3170A8005A3B8A /* GradeBook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GradeBook.png; sourceTree = "<group>"; };
 		F747C3E31A3171CE005A3B8A /* A+.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "A+.png"; sourceTree = "<group>"; };
+		F747C3E51A317A55005A3B8A /* Manual test plan.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Manual test plan.pdf"; sourceTree = "<group>"; };
 		F7F7A05D1A1D7943001626E1 /* A+.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "A+.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7F7A0611A1D7943001626E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F7F7A0621A1D7943001626E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				F7F7A07A1A1D7943001626E1 /* A_Tests.swift */,
+				F747C3E51A317A55005A3B8A /* Manual test plan.pdf */,
 				F7F7A0781A1D7943001626E1 /* Supporting Files */,
 			);
 			path = "A+Tests";
@@ -231,6 +234,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F747C3E61A317A55005A3B8A /* Manual test plan.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
